@@ -58,11 +58,11 @@ enableEmoji = true
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Cyber IT Solutions Pty Ltd (ABN: 13 053 904 082, ACN: 053 904 082)"
+    copyright = "© Cyber IT Solutions Pty Ltd (ABN: 13 053 904 082, ACN: 053 904 082) (<a href=\"/attribution\">attribution</a>)"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = false
+    hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
     invertSectionColors = false
