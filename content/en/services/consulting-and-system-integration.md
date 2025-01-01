@@ -16,4 +16,3 @@ Cyber IT Solutions provide consulting services on all aspects of your business' 
 Our team of engineers can seamlessly integrate your Linux and open source solutions with existing legacy and third-party business-critical systems.
 
 We have comprehensive design and hands-on expertise in the integration and management of most core open source system technologies.
-

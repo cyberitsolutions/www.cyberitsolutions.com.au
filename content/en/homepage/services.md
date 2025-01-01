@@ -29,25 +29,30 @@ latest open source tools and security practices.
 ## Our Expertise
 
 **Remote & On-Site Services:**
+
 - Remote infrastructure management
 - Software maintenance and fault rectification
 - System recovery and hardening (ISM-compliant)
 
 **Email & Data Platforms:**
+
 - Postfix, Sendmail, Dovecot
 - PostgreSQL, MySQL/MariaDB
 
 **Core Services:**
+
 - OpenLDAP, BIND/DNS
 - Samba-SMB/CIFS, Active Directory
 - Apache, Squid
 
 **Virtualization & Cloud:**
+
 - Qemu/KVM, LXC, OpenVZ, Docker, Proxmox
 - Linux-on-Cloud (AWS, Google, Azure, Digital Ocean)
 - Legacy Unix platform support and migration
 
 **Development Expertise:**
+
 - Python, C/C++
 
 {{<services>}}

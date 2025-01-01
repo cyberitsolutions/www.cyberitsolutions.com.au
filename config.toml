@@ -61,7 +61,7 @@ enableEmoji = true
     copyright = "© Cyber IT Solutions Pty Ltd (ABN: 13 053 904 082, ACN: 053 904 082) (<a href=\"/attribution\">attribution</a>)"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
-    # You can turn it off, but we would really appreciate if you don’t :-)
+    # You can turn it off, but we would really appreciate if you don't :-)
     hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
