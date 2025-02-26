@@ -1,10 +1,12 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-Expires: 2025-01-01T00:00:00Z
+Expires: 2026-01-01T00:00:00Z
 Contact: mailto:security@cyber.com.au
 Contact: tel:+61370194225
 
+# NOTE: This copy must be manually updated to match:
+#       https://github.com/cyberitsolutions/www.cyberitsolutions.com.au/blob/main/static/.well-known/security.txt
 Canonical: https://cyber.com.au/.well-known/security.txt
 Preferred-Languages: en
 
@@ -44,8 +46,8 @@ Encryption: openpgp4fpr:E631DFD70A6315B2E7831CE73F30EFBB56D45DEB
 # End:
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYIAB0WIQSa2DCDFKeGhLfn4PQv4DGKIStEDAUCZW8ZogAKCRAv4DGKIStE
-DEMpAQCnNUie/Sdxmq9vl4IZFADQ465KuX7xLugdgTf94bwJZAD+OHCxRp31CycP
-dI1b1R+g7ivLFVUAZqVkxo2l/wNnwAU=
-=CXKi
+iHUEARYIAB0WIQSa2DCDFKeGhLfn4PQv4DGKIStEDAUCZ77WzQAKCRAv4DGKIStE
+DEO3AQCHOE8DYTyP3h0PReX9l3maJFoBRDNBA53juq9wq8qgDQD/Uwke05Ohjn7K
+b/Yx0SGrB8BwYY+YXsUUv5ZuRyh8ZAI=
+=Go5e
 -----END PGP SIGNATURE-----
