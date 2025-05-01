@@ -4,11 +4,16 @@ weight: 4
 header_menu: true
 ---
 
-{{<contact_list>}}
+Note: If you are the victim of online fraud, identify
+      theft, or a scam, you'll find assistance
+      **[here on our scam resource page](scam_support)**.
 
-For all inquiries please email or call.
 
-Note: If you have experienced online fraud or are the victim of a scam then
-you'll find useful information on [our scam help page](scams).
+**Expert IT Support & Strategic Guidance**
+
+For reliable and professional technical support or tailored consulting for your organisation, contact Cyber IT Solutions today. Our team delivers proactive, solution-focused IT services to keep your organisation secure, efficient, and ahead of the curve.
 
 {{<contact_form>}}
+
+{{<contact_list>}}
+
