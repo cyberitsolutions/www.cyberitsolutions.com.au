@@ -12,6 +12,6 @@ If you've been targeted by a scam, you’re not alone. An increasing number of A
 
 ✅ Red flags and tools to stay ahead of evolving tactics.
 
-[Register for the ebook and start rebuilding your defenses](https://www.lulu.com/shop/mark-ketting/personal-cyber-safety-guide-for-australian-technology-users/ebook/product-m2mpv4k.html).
+**[Register for the ebook and start rebuilding your defenses](https://www.lulu.com/shop/mark-ketting/personal-cyber-safety-guide-for-australian-technology-users/ebook/product-m2mpv4k.html).**
 
 
