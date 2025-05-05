@@ -4,7 +4,7 @@ weight: 4
 header_menu: true
 ---
 
-Note: If you are the victim of online fraud, identify
+Note: If you are the victim of online fraud, identity
       theft, or a scam, you'll find assistance
       **[here on our scam resource page](scam_support)**.
 
