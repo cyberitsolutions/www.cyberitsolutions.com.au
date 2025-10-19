@@ -114,3 +114,44 @@ p:has(a[href*="scam"]) {
   padding: 5px;
   border: 5px solid red;
 }
+
+
+
+form.contact_form {
+    // Form grid layout
+    div.form-group.row {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+    // Make the form inputs larger
+    div.input-group {flex-grow: 3}
+    textarea.form-control,input.form-control{min-width:20em;width: 100%}
+    textarea.form-control{min-height:8em}
+    // Make all the form labels have the same width
+    label.col-form-label{min-width:5em;margin-right:2em;}
+    // Stop wrapping around the input icon
+    div.input-group-prepend{display: inline-block;width:1em}
+}
+// hugo-scroll changes margins/etc at these widths, so it's a sensible size for us to mess with things if we have need to
+// See responsiveness.css
+@media only screen and (max-width:1130px) {
+    form.contact_form {
+        // Make the message input smaller by default
+        textarea.form-control{min-height:6em}
+        // Decrease the margin around the labels
+        label.col-form-label{margin-right:1em}
+    }
+}
+@media only screen and (max-width:500px) {
+    form.contact_form {
+        // Make the message input smallerer by default
+        textarea.form-control{min-height:3em}
+        // Remove the margin around the labels
+        label.col-form-label{margin-right:unset}
+        // Force form to be vertical on smaller screens
+        // Workaround issues of the width actually **increasing** once the page margins changed
+        div.form-group.row > * {flex-basis: 100%}
+    }
+}
