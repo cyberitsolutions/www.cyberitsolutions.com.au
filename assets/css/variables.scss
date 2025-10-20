@@ -146,6 +146,8 @@ form.contact_form {
 }
 @media only screen and (max-width:500px) {
     form.contact_form {
+        // Let the form inputs get even smaller
+        textarea.form-control,input.form-control{min-width:unset}
         // Make the message input smallerer by default
         textarea.form-control{min-height:3em}
         // Remove the margin around the labels
