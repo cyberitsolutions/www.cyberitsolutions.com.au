@@ -140,6 +140,8 @@ form.contact_form {
     }
     // Make all the form labels have the same width
     label.col-form-label{min-width:5em;margin-right:2em;}
+    // Align the submit button to the right
+    div.input-group{text-align:end}
 }
 // hugo-scroll changes margins/etc at these widths, so it's a sensible size for us to mess with things if we have need to
 // See responsiveness.css
