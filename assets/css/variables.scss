@@ -126,13 +126,20 @@ form.contact_form {
         width: 100%;
     }
     // Make the form inputs larger
-    div.input-group {flex-grow: 3}
-    textarea.form-control,input.form-control{min-width:20em;width: 100%}
+    div.input-group{flex-grow: 3;min-width: 20em}
+    textarea.form-control,input.form-control{box-sizing:border-box;width: 100%}
     textarea.form-control{min-height:8em}
+    // Stop wrapping around the input icon
+    div.input-group{white-space: nowrap}
+    div.input-group-prepend{
+        display: inline-block;width:1em;
+        // and ensure the form input makes space for it
+        + textarea.form-control, + input.form-control {width: calc(100% - 1.3em)}
+        // Vertically align the variable width icons
+        text-align: center;
+    }
     // Make all the form labels have the same width
     label.col-form-label{min-width:5em;margin-right:2em;}
-    // Stop wrapping around the input icon
-    div.input-group-prepend{display: inline-block;width:1em}
 }
 // hugo-scroll changes margins/etc at these widths, so it's a sensible size for us to mess with things if we have need to
 // See responsiveness.css
@@ -147,7 +154,7 @@ form.contact_form {
 @media only screen and (max-width:500px) {
     form.contact_form {
         // Let the form inputs get even smaller
-        textarea.form-control,input.form-control{min-width:unset}
+        div.input-group{min-width:2em}
         // Make the message input smallerer by default
         textarea.form-control{min-height:3em}
         // Remove the margin around the labels
