@@ -126,7 +126,7 @@ form.contact_form {
         width: 100%;
     }
     // Make the form inputs larger
-    div.input-group{flex-grow: 3;min-width: 20em}
+    div.input-group{flex-grow: 3;min-width: 20em;margin-top: 4px}
     textarea.form-control,input.form-control{box-sizing:border-box;width: 100%}
     textarea.form-control{min-height:8em}
     // Stop wrapping around the input icon
