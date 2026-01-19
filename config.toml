@@ -1,7 +1,12 @@
 baseURL = "https://www.cyberitsolutions.com.au"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+# FIXME: No it's not...
+disableKinds = ["section", "taxonomy", "term", "RSS"]
+
+# Supposedly, Google doesn't index our website if they can't access robots.txt
+# ref: https://www.alanwsmith.com/en/37/wa/jz/s1/
+enableRobotsTXT = true
 
 defaultContentLanguage = "en"
 
